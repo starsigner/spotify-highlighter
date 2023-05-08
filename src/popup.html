@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 200px;
+            height: auto;
+        }
+
+        div {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50%;
+            height: 25%;
+            padding: 5px;
+            font-size: 1.4em;
+            background-color: #1DB954;
+            border-radius: 3px;
+            text-align: center;
+            color: white;
+            font-family: monospace;
+            font-weight: bold;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition-duration: 0.3s;
+        }
+
+        div:hover {
+            background-color: #1DB954;
+            transform: translateX(-50%) scale(1.01);
+            box-shadow: 2px 2px 1px #888888;
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sign-In With Your Spotify Account</h1>
+    <div id='sign-in'>Sign In</div>
+    <script src="./popup-script.js"></script>
+</body>
+
+</html>
+
+
